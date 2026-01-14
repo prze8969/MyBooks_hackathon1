@@ -1,0 +1,23 @@
+<div class="listing-card small" data-lat="<%= listing.geometry.coordinates[1] %>"
+  data-lng="<%= listing.geometry.coordinates[0] %>">
+
+
+
+  <a href="/listings/<%= listing._id %>" class="card-link">
+
+    <div class="book-image">
+      <img src="<%= listing.image %>" />
+    </div>
+
+    <p class="distance">Calculating...</p>
+
+    <h2>
+      <%= listing.title %>
+    </h2>
+
+    <p class="desc">...</p>
+
+    <div class="card-bottom-row">...</div>
+
+  </a>
+</div>

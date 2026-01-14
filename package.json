@@ -1,0 +1,39 @@
+{
+  "name": "mybooks_",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMuzammil2508/MyBooks_.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SMuzammil2508/MyBooks_/issues"
+  },
+  "homepage": "https://github.com/SMuzammil2508/MyBooks_#readme",
+  "dependencies": {
+    "@google/genai": "^1.35.0",
+    "axios": "^1.13.2",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
+    "express": "^5.2.1",
+    "express-session": "^1.18.2",
+    "expresss": "^0.0.0",
+    "joi": "^18.0.2",
+    "method-override": "^3.0.0",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.3",
+    "node-fetch": "^2.7.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^9.0.1"
+  }
+}
